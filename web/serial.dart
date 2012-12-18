@@ -166,11 +166,9 @@ class Serial {
         
         js.context.writeCallback = new js.Callback.once(writeCallback);
         
-        var buf = js.context.xArrayBuffer(data.charCodes.length);
-        var bufView = js.context.xUint8Array(buf);
-        for (var i = 0; i < data.charCodes.length; i++) {
-          bufView[i] = data.charCodeAt(i);
-        }
+        var buf = new js.Proxy(js.context.ArrayBuffer, data.charCodes.length);
+        var bufView = new js.Proxy(js.context.Uint8Array, buf)
+        ..set(js.array(data.charCodes));
         
         chrome.serial.write(openInfo.connectionId, buf, js.context.writeCallback);
       });
@@ -203,7 +201,8 @@ class Serial {
           var chrome = js.context.chrome;
           if (readInfo != null && readInfo.bytesRead > 0 && readInfo.data != null) {
             
-            var bufView = js.context.xUint8Array(readInfo.data);
+            var bufView = new js.Proxy(js.context.Uint8Array, readInfo.data);
+            
             List chars = [];
             for (var i = 0; i < bufView.length; i++) {
               chars.add(bufView[i]);

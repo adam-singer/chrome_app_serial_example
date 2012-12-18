@@ -2,6 +2,9 @@ name:  chrome_app_serial_example
 description:  A sample application
 
 dependencies:
-  js: any
+  js:
+    git:
+      url: git://github.com/a14n/js-interop.git
+      ref: new-js-instantiation
   logging: any
 #  unittest: any
