@@ -4,7 +4,12 @@ description:  A sample application
 dependencies:
   js:
     git:
-      url: git://github.com/a14n/js-interop.git
-      ref: new-js-instantiation
+      url: git://github.com/dart-lang/js-interop.git
+#      url: git://github.com/a14n/js-interop.git
+
+  chrome:
+    git:
+      url: git://github.com/financeCoding/chrome.dart.git
+      ref: implement_chrome_serial_with_latest_js_interop
   logging: any
 #  unittest: any

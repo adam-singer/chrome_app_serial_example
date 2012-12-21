@@ -2,7 +2,6 @@ file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/imp
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/implementation/lib/core_patch.dart
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/implementation/lib/foreign_helper.dart
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/implementation/lib/interceptors.dart
-file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/implementation/lib/isolate_helper.dart
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/implementation/lib/isolate_patch.dart
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/implementation/lib/js_array.dart
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/_internal/compiler/implementation/lib/js_helper.dart
@@ -79,6 +78,9 @@ file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/utf/utf8.dart
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/utf/utf_core.dart
 file:///Users/adam/Documents/DartEditor/dart/dart-sdk/lib/web_audio/dart2js/web_audio_dart2js.dart
 file:///Users/adam/dart/chrome_app_serial_example/web/chrome_app_serial_example.dart
+file:///Users/adam/dart/chrome_app_serial_example/web/packages/chrome/chrome.dart
+file:///Users/adam/dart/chrome_app_serial_example/web/packages/chrome/src/runtime.dart
+file:///Users/adam/dart/chrome_app_serial_example/web/packages/chrome/src/serial.dart
+file:///Users/adam/dart/chrome_app_serial_example/web/packages/chrome/src/storage.dart
 file:///Users/adam/dart/chrome_app_serial_example/web/packages/js/js.dart
 file:///Users/adam/dart/chrome_app_serial_example/web/packages/logging/logging.dart
-file:///Users/adam/dart/chrome_app_serial_example/web/serial.dart
